@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;500;900&display=swap');
+
+:root{
+  /* colors */
+  --green: #70842B;
+  --ligth-green: #d7df94;
+
+  --title-size: 2.9rem;
+  --subtitle-size: 1.8rem;
+  --text-size: 1rem;
+  --font: 'Prompt', sans-serif;
+  --light: 200;
+  --medium: 500;
+  --bold: 900;
+  
+  --color-font: #181818;
+  --background-color: #f6f6f6;
+
+  /* btn */
+  --radius: 12px;
+  --padding: 10px;
+  --border: solid 1px #70842B;
+  --btn-color-hover: #f6f6f6;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* @media only screen and (max-width: 425px){
+	.App{
+    background-color: #132128;
+    color: #d3dae3;
+   font-family: sans-serif;
+  }
+
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

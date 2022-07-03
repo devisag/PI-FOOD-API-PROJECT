@@ -1,0 +1,34 @@
+.container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: space-around;
+   gap: 1.3em;
+   padding: 30px;
+   width: 100%;
+}
+
+.pageActive{
+  text-decoration: none;
+  background-color: var(--green);
+  color: var(--background-color);
+  font-weight: var(--medium);
+  border-radius: 5px;
+  padding: 3px 3px;
+  cursor: pointer;
+}
+
+.page{
+   text-decoration: none;
+   color: var(--color-font);
+   background-color: 1px solid rgb(216, 216, 216);
+   border-radius: 5px;
+   padding: 4px 3px;
+   transition: 0.3 ease-in-out;
+   cursor: pointer;
+}
+
+.page:hover{
+  background-color:  rgb(173, 173, 173);
+}
+

@@ -1,0 +1,140 @@
+.recipe{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   padding: 20px;
+   border: 1px solid rgba(242, 242, 242, 90);
+   border-radius: var(--radius);
+   gap: 0.8em;
+   width: 300px;
+   height: 550px;
+   box-shadow:  29px 29px 58px #c2c2c2,
+             -29px -29px 58px #ffffff;
+}
+
+.img{
+   width: 90%;
+}
+
+.score{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 0.3em;
+}
+
+.numScore{
+   background-color: var(--green);
+   color: var(--background-color);
+   border-radius: var(--radius);
+   padding: 5px 15px;
+   font-weight: var(--medium);
+}
+
+.hscore{
+   color: var(--green);
+}
+
+.name{
+   text-align: center;
+   font-weight: var(--medium);
+}
+
+.recipeImg{
+   border-radius: 8px;
+   width: 100%;
+}
+
+.diets{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 0.8em;
+   padding: 6px;
+}
+
+.diet{
+   border-radius: var(--radius);
+   background-color: rgba(242,242,242, 80%);
+   text-transform: uppercase;
+   font-weight: var(--light);
+   padding: 8px;
+}
+
+.details{
+   cursor: pointer;
+   font-size: 0.7em;
+   font-weight: var(--bold);
+   color: var(--green);
+   border: 1px solid var(--green);
+   border-radius: var(--radius);
+   padding: 8px;
+}
+
+.details:hover{
+   color: var(--btn-color-hover);
+   background-color: var(--green);
+}
+
+.detailsmobile{
+   display: none;
+}
+
+.imgmobile, .recipeImgmobile{
+   display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 770px){
+   .recipe{
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      box-shadow: none;
+      background-color: #c2c2c231;
+   }
+
+   .diets, .score, .details, .img, .recipeImg, .name{
+      display: none;
+   }
+
+   .detailsmobile{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+   font-size: 1.1em;
+   font-weight: var(--bold);
+   color: var(--green);
+   border: 1px solid var(--green);
+   border-radius: 9999px;
+   padding: 3px 6px;
+   }
+
+   .imgmobile{
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      width: 60%;
+   }
+
+   .recipeImgmobile{
+      display: flex;
+      align-items: center;
+      width: 50%;
+   }
+
+   .details:hover{
+      color: var(--btn-color-hover);
+      background-color: var(--green);
+   }
+
+   .name{
+      font-weight: var(--light);
+      text-align: left;
+   }
+
+}

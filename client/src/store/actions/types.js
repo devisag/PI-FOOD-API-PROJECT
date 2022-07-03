@@ -1,0 +1,11 @@
+export const FETCH_RECIPES = "FETCH_RECIPES";
+export const GET_DETAILS = "GET_DETAILS";
+export const DIET_TYPE_FILTER = "DIET_TYPE_FILTER";
+export const ALPHA_SORT = "ALPHA_SORT";
+export const HEALTH_SCORE_SORT = "HEALTH_SCORE_SORT";
+export const SEARCH_RECIPE = "SEARCH_RECIPE"
+export const GET_DIET_TYPES = "GET_DIET_TYPES";
+export const ADD_RECIPE = "ADD_RECIPE";
+export const DELETE_RECIPE = "DELETE_RECIPE";
+export const DETAILS = "DETAILS";
+export const LOCAL_HOST = "http://localhost:3001"
