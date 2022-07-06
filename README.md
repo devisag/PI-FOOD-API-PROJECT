@@ -12,11 +12,6 @@
  
 This project uses APIs from https://spoonacular.com/food-api
 
----
-
-### Go to the kitchen with this link
-#### (Vercel and Heroku deploy)
-LINK: https://recipes-app-teal.vercel.app
 
 ---
 
